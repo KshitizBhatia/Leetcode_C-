@@ -1,6 +1,7 @@
 #include<iostream>
 #include <bits/stdc++.h>
 
+<<<<<<< HEAD
 using namespace std;
 void printVector(vector<int>);
 void reverse_vector(vector<int> v, int n)
@@ -31,3 +32,6 @@ int main()
    
     return 0;
 }
+=======
+using namespace std;
+>>>>>>> 94171f13c33c30e3c1b8afdf86fafbe088adba2a
