@@ -32,6 +32,7 @@ vector<int> SumOfArray( vector<int> &a, int n, vector<int> &b , int m)
         j--;
     }
 
+    //if 1st array is larger
     while(i>=0)
     {
         int sum= a[i]+carry;   
@@ -40,7 +41,7 @@ vector<int> SumOfArray( vector<int> &a, int n, vector<int> &b , int m)
         ans.push_back(sum);
         i--;   
     }
-    
+    //if 2nd array is larger
     while(j>=0)
     {
         int sum= b[j]+carry;   
@@ -49,7 +50,8 @@ vector<int> SumOfArray( vector<int> &a, int n, vector<int> &b , int m)
         ans.push_back(sum);
         j--;   
     }
-
+    
+    //if carry is at last
     while(carry!=0)
     {
         int sum=carry;
